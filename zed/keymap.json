@@ -1,0 +1,26 @@
+// Zed keymap
+// https://zed.dev/docs/key-bindings
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-left": "pane::SplitLeft",
+      "ctrl-shift-right": "pane::SplitRight"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "secondary-1": ["pane::ActivateItem", 0],
+      "secondary-2": ["pane::ActivateItem", 1],
+      "secondary-3": ["pane::ActivateItem", 2],
+      "secondary-4": ["pane::ActivateItem", 3],
+      "secondary-5": ["pane::ActivateItem", 4],
+      "secondary-6": ["pane::ActivateItem", 5],
+      "secondary-7": ["pane::ActivateItem", 6],
+      "secondary-8": ["pane::ActivateItem", 7],
+      "secondary-9": ["pane::ActivateItem", 8],
+      "secondary-0": "pane::ActivateLastItem"
+    }
+  }
+]

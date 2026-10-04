@@ -1,0 +1,10 @@
+.DS_Store
+*.bak
+*.backup
+*.log
+*.swp
+*.tmp
+.env
+.env.*
+.test-home/
+test-output/
