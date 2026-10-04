@@ -2,6 +2,13 @@
 // https://zed.dev/docs/key-bindings
 [
   {
+    "bindings": {
+      "cmd-shift-e": "workspace::ToggleLeftDock",
+      "cmd-shift-r": "workspace::ToggleRightDock",
+      "cmd-`": "terminal_panel::Toggle"
+    }
+  },
+  {
     "context": "Editor",
     "bindings": {
       "ctrl-shift-left": "pane::SplitLeft",
