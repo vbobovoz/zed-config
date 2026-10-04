@@ -84,12 +84,38 @@
     "starts_open": true,
     "font_family": "JetBrainsMono Nerd Font Mono",
     "font_size": 14,
-    "line_height": "standard"
+    "font_weight": 400,
+    "line_height": "standard",
+    "minimum_contrast": 0
   },
   "theme": {
     "mode": "dark",
     "light": "Ayu Light",
-    "dark": "Kanagawa Wave",
+    "dark": "Kanagawa Wave"
+  },
+  "theme_overrides": {
+    "Kanagawa Wave": {
+      "terminal.background": "#1F1F28",
+      "terminal.foreground": "#DCD7BA",
+      "terminal.bright_foreground": "#FFFFFF",
+      "terminal.dim_foreground": "#C8C093",
+      "terminal.ansi.black": "#16161D",
+      "terminal.ansi.red": "#E46876",
+      "terminal.ansi.green": "#98BB6C",
+      "terminal.ansi.yellow": "#E6C384",
+      "terminal.ansi.blue": "#7FB4CA",
+      "terminal.ansi.magenta": "#D27E99",
+      "terminal.ansi.cyan": "#7AA89F",
+      "terminal.ansi.white": "#DCD7BA",
+      "terminal.ansi.bright_black": "#727169",
+      "terminal.ansi.bright_red": "#FF5D62",
+      "terminal.ansi.bright_green": "#B7D88A",
+      "terminal.ansi.bright_yellow": "#FFD57F",
+      "terminal.ansi.bright_blue": "#9CCFD8",
+      "terminal.ansi.bright_magenta": "#C4A7E7",
+      "terminal.ansi.bright_cyan": "#A3D4D5",
+      "terminal.ansi.bright_white": "#FFFFFF"
+    }
   },
   "tab_size": 4,
   "hard_tabs": false,
